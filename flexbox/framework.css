@@ -1,0 +1,315 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*COLOR*/
+
+.white{
+	color: white;
+}
+
+.gold{
+	color: gold;
+}
+
+.light-blue{
+	background-color: #00A3D9;
+}
+
+.container{
+	width: 100%;
+}
+
+/*///*/
+
+div.flex{
+	display: flex;
+	max-width: 960px;
+	padding: 0 2%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+/*WIDTH*/
+
+.w50{
+	width: 50%;
+}
+
+.w33{
+	width: 33.3%;
+}
+
+.w100{
+	width: 100%;
+}
+
+/*///*/
+
+
+
+/**MARGIN-LEFT**/
+
+.m10l{
+	margin-left: 10%;
+}
+
+.m20l{
+	margin-left: 20%;
+}
+
+.m30l{
+	margin-left: 30%;
+}
+
+.m40l{
+	margin-left: 40%;
+}
+
+.m50l{
+	margin-left: 50%;
+}
+
+.m60l{
+	margin-left: 60%;
+}
+
+.m70l{
+	margin-left: 70%;
+}
+
+.m80l{
+	margin-left: 80%;
+}
+
+.m90l{
+	margin-left: 90%;
+}
+
+.m100l{
+	margin-left: 100%;
+}
+
+/*///*/
+
+
+/**MARGIN-RIGHT**/
+
+.m10r{
+	margin-left: 10%;
+}
+
+.m20r{
+	margin-left: 20%;
+}
+
+.m30r{
+	margin-left: 30%;
+}
+
+.m40r{
+	margin-left: 40%;
+}
+
+.m50r{
+	margin-left: 50%;
+}
+
+.m60r{
+	margin-left: 60%;
+}
+
+.m70r{
+	margin-left: 70%;
+}
+
+.m80r{
+	margin-left: 80%;
+}
+
+.m90r{
+	margin-left: 90%;
+}
+
+.m100r{
+	margin-left: 100%;
+}
+
+
+/*////*/
+
+
+/**MARGIN-TOP**/
+
+.m10t{
+	margin-left: 10%;
+}
+
+.m20t{
+	margin-left: 20%;
+}
+
+.m30t{
+	margin-left: 30%;
+}
+
+.m40t{
+	margin-left: 40%;
+}
+
+.m50t{
+	margin-left: 50%;
+}
+
+.m60t{
+	margin-left: 60%;
+}
+
+.m70t{
+	margin-left: 70%;
+}
+
+.m80r{
+	margin-left: 80%;
+}
+
+.m90t{
+	margin-left: 90%;
+}
+
+.m100t{
+	margin-left: 100%;
+}
+
+/*////*/
+
+
+
+
+/**MARGIN-TOP**/
+
+
+.m10b{
+	margin-left: 10%;
+}
+
+.m20b{
+	margin-left: 20%;
+}
+
+.m30b{
+	margin-left: 30%;
+}
+
+.m40b{
+	margin-left: 40%;
+}
+
+.m50b{
+	margin-left: 50%;
+}
+
+.m60b{
+	margin-left: 60%;
+}
+
+.m70b{
+	margin-left: 70%;
+}
+
+.m80b{
+	margin-left: 80%;
+}
+
+.m90b{
+	margin-left: 90%;
+}
+
+.m100b{
+	margin-left: 100%;
+}
+
+
+/*///*/
+
+
+
+/*ALINHAMENTO*/	
+
+.left{
+	text-align: left;
+	float: left;
+}
+
+.right{
+	text-align: right;]
+	float: right;
+}
+
+.center{
+	text-align: center;
+}
+
+/*///*/
+
+/*ORDENAGEM*/
+
+.order1{
+	order: 1;
+}
+
+.order2{
+	order: 2;
+}
+
+.order3{
+	order: 3;
+}
+
+.order4{
+	order: 4;
+}
+
+.order5{
+	order: 5;
+}
+
+.order6{
+	order: 6;
+}
+
+.order7{
+	order: 7;
+}
+
+.order8{
+	order: 8;
+}
+
+.order9{
+	order: 9;
+}
+
+.order10{
+	order: 10;
+}
+
+/*///*/
+
+
+@media screen and (max-width: 768px){
+	div.w50,div.w33{
+		width: 100%;
+	}
+
+	div.w33{
+		margin-top: 3em;
+	}
+
+	.left,.right,.center{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
